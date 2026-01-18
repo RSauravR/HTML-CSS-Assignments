@@ -1,0 +1,16 @@
+#container {
+    width: 1200px;
+    background-color: aqua;
+    display: flex;
+    margin: 0 auto;
+}
+
+#left {
+    background-color: red;
+    flex-grow: 1;
+}
+
+#right {
+    background-color: blue;
+    flex-grow: 2;
+}
